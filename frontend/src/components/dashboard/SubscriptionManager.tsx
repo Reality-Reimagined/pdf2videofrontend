@@ -14,7 +14,7 @@ const plans = [
   {
     name: 'Pro',
     price: 29,
-    checkoutUrl: 'https://buy.stripe.com/test_6oE2a93BO3q2bSw5kl',
+    checkoutUrl: 'https://buy.stripe.com/test_7sI9CB8W8f8K4q4bIK',
     features: [
       'Unlimited videos',
       'HD quality',
@@ -28,7 +28,7 @@ const plans = [
   {
     name: 'Enterprise',
     price: 99,
-    checkoutUrl: 'https://buy.stripe.com/test_7sI9CB8W8f8K4q4bIK',
+    checkoutUrl: 'https://buy.stripe.com/test_6oE2a93BO3q2bSw5kl',
     features: [
       'Everything in Pro',
       '4K quality',
