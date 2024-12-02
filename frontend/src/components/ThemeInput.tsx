@@ -1,5 +1,5 @@
 import React from 'react';
-import { useStore } from '../lib/store';
+import { useAuthStore } from '../lib/store';
 
 export const ThemeInput = () => {
   const { theme, setTheme } = useStore();
