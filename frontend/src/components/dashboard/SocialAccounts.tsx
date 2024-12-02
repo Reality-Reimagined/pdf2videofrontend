@@ -652,7 +652,8 @@ export const SocialAccounts = () => {
       </div>
 
       {/* Development Mode Section */}
-      {import.meta.env.DEV && (
+{/*       {import.meta.env.DEV && ( */}
+        {true && (
         <div className="mt-8 bg-white dark:bg-gray-800 shadow rounded-lg p-6">
           <h3 className="text-lg font-medium text-gray-900 dark:text-white mb-4">
             Development Mode: Manual Token Input
