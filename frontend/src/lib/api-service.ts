@@ -67,7 +67,7 @@ export const apiService = {
       console.log('Generating speech...');
       const ttsResponse = await axios.post(
         // 'https://loon-stirred-terribly.ngrok-free.app/text-to-speech/',
-        'https://https://super-sloth-deep.ngrok-free.app/text-to-speech/',
+        'https://super-sloth-deep.ngrok-free.app/text-to-speech/',
         { text },
         {
           headers: {
