@@ -6,7 +6,8 @@ export const aiService = {
       console.log('Sending request with:', { text, model });
       // const response = await axios.post('http://localhost:5050/generate-script/', {
       
-      const response = await axios.post('https://loon-stirred-terribly.ngrok-free.app/generate-script/', {
+      // const response = await axios.post('https://loon-stirred-terribly.ngrok-free.app/generate-script/', {
+      const response = await axios.post('https://super-sloth-deep.ngrok-free.app/generate-script/', {
         text: text,
         model: model.toLowerCase()
       }, {
