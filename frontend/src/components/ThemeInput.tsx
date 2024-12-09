@@ -1,5 +1,5 @@
 import React from 'react';
-import { useVideoStore } from '../../lib/store';
+import { useVideoStore } from '../lib/store';
 
 export const ThemeInput = () => {
   const { theme, setTheme } = useVideoStore();
