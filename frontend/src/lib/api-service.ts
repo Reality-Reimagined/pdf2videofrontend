@@ -2,7 +2,8 @@ import axios from 'axios';
 import { supabase } from './supabase';
 
 const api = axios.create({
-  baseURL: 'https://loon-stirred-terribly.ngrok-free.app',  // Updated to FastAPI's default port
+  // baseURL: 'https://loon-stirred-terribly.ngrok-free.app',  // Updated to FastAPI's default port
+  baseURL: 'https://super-sloth-deep.ngrok-free.app',
   headers: {
     'Content-Type': 'application/json',
     'ngrok-skip-browser-warning': 'true'
