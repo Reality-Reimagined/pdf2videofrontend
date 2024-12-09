@@ -78,9 +78,18 @@ export const apiService = {
       );
       console.log('TTS Response:', ttsResponse.data);
 
+      // // 2. Get background video
+      // console.log('Getting background video...');
+      // const bgResponse = await axios.get(`https://super-sloth-deep.ngrok-free.app/background-video/?query=${encodeURIComponent(theme)}`);
+      // console.log('Background Response:', bgResponse.data);
       // 2. Get background video
       console.log('Getting background video...');
-      const bgResponse = await axios.get(`https://super-sloth-deep.ngrok-free.app/background-video/?query=${encodeURIComponent(theme)}`);
+      const bgResponse = await axios.get(`https://super-sloth-deep.ngrok-free.app/background-video/?query=${encodeURIComponent(theme)}`, {
+        headers: {
+          'Content-Type': 'application/json',
+          'ngrok-skip-browser-warning': 'true'
+        }
+      });
       console.log('Background Response:', bgResponse.data);
 
       // 3. Create base video
